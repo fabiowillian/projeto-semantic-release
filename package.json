@@ -8,7 +8,8 @@
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "gren": "gren release",
-    "release": "npm version patch && git push --tags origin master && git-release-notes v1.0.2..v.1.0.3 html > changelog.html"
+    "release": "npm version patch && git push --tags origin master && git-release-notes v1.0.2..v.1.0.3 html > changelog.html",
+    "note": "git-release-notes v1.0.2..v1.0.3 markdown > changelog.html"
   },
   "keywords": [],
   "author": "",

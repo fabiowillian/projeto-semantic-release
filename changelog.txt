@@ -1,0 +1,5 @@
+commit 0f51b79afe23acccad4c66ba60180c60d9963c83
+Author: Fabio Willian <fabio.souza@db1.com.br>
+Date:   Fri Nov 9 19:05:02 2018 -0300
+
+    1.0.2
