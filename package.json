@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "gren": "gren release",
+    "release": "npm version patch && git push --tags origin master && git-release-notes v1.0.2..v.1.0.3 html > changelog.html"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,8 @@
     "@semantic-release/release-notes-generator": "^7.1.4",
     "commitizen": "^3.0.4",
     "cz-conventional-changelog": "^2.1.0",
+    "git-release-notes": "^3.0.0",
+    "github-release-notes": "^0.17.0",
     "semantic-release": "^15.10.8"
   },
   "config": {
